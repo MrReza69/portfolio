@@ -41,70 +41,37 @@
 <script setup>
 const projects = [
   {
-    title: 'Microservice Architecture',
-    description: 'A scalable e-commerce platform built with microservices architecture using Node.js, Kafka, and Docker.',
-    link: '#',
+    title: 'Task Manager',
+    description: 'A website for manage your tasks.',
+    link: 'https://github.com/MrReza69/TaskManager',
     gradient: 'from-primary/20 to-primary/40',
     tags: [
-      { name: 'Node.js', color: 'bg-primary/20 text-primary' },
-      { name: 'Kafka', color: 'bg-secondary/20 text-secondary' },
+      { name: 'Php', color: 'bg-primary/20 text-primary' },
+      { name: 'Laravel', color: 'bg-secondary/20 text-secondary' },
       { name: 'Docker', color: 'bg-accent/20 text-accent' }
     ]
   },
   {
-    title: 'Real-time Analytics API',
-    description: 'High-performance analytics API processing millions of events per day using Go, Redis, and TimescaleDB.',
-    link: '#',
+    title: 'Jakal Player',
+    description: 'A music player application by flask.',
+    link: 'https://github.com/MrReza69/jakal',
     gradient: 'from-secondary/20 to-secondary/40',
     tags: [
-      { name: 'Go', color: 'bg-secondary/20 text-secondary' },
-      { name: 'Redis', color: 'bg-primary/20 text-primary' },
-      { name: 'TimescaleDB', color: 'bg-accent/20 text-accent' }
+      { name: 'Python', color: 'bg-secondary/20 text-secondary' },
+      { name: 'flask', color: 'bg-primary/20 text-primary' },
+      { name: 'Html/Css', color: 'bg-accent/20 text-accent' }
     ]
   },
   {
-    title: 'Serverless CMS',
-    description: 'A headless CMS built with serverless architecture using AWS Lambda, DynamoDB, and API Gateway.',
+    title: 'Todo App',
+    description: 'an aplication for manage your todo and planing your works.',
     link: '#',
     gradient: 'from-accent/20 to-accent/40',
     tags: [
-      { name: 'AWS Lambda', color: 'bg-accent/20 text-accent' },
-      { name: 'DynamoDB', color: 'bg-primary/20 text-primary' },
-      { name: 'Serverless', color: 'bg-secondary/20 text-secondary' }
+      { name: 'Html/Css', color: 'bg-accent/20 text-accent' },
+      { name: 'Php', color: 'bg-primary/20 text-primary' },
+      { name: 'Laravel', color: 'bg-secondary/20 text-secondary' }
     ]
   },
-  {
-    title: 'DevOps Automation Platform',
-    description: 'A platform for automating CI/CD pipelines, infrastructure provisioning, and monitoring.',
-    link: '#',
-    gradient: 'from-blue-500/20 to-blue-600/40',
-    tags: [
-      { name: 'Python', color: 'bg-blue-500/20 text-blue-400' },
-      { name: 'Terraform', color: 'bg-purple-500/20 text-purple-400' },
-      { name: 'Kubernetes', color: 'bg-blue-700/20 text-blue-300' }
-    ]
-  },
-  {
-    title: 'Distributed Cache System',
-    description: 'A high-performance distributed caching system with fault tolerance and automatic scaling.',
-    link: '#',
-    gradient: 'from-purple-500/20 to-purple-600/40',
-    tags: [
-      { name: 'Java', color: 'bg-orange-500/20 text-orange-400' },
-      { name: 'Redis', color: 'bg-red-500/20 text-red-400' },
-      { name: 'Hazelcast', color: 'bg-blue-500/20 text-blue-400' }
-    ]
-  },
-  {
-    title: 'API Gateway',
-    description: 'A custom API gateway with authentication, rate limiting, and request transformation features.',
-    link: '#',
-    gradient: 'from-green-500/20 to-green-600/40',
-    tags: [
-      { name: 'Node.js', color: 'bg-green-500/20 text-green-400' },
-      { name: 'Express', color: 'bg-blue-500/20 text-blue-400' },
-      { name: 'JWT', color: 'bg-yellow-500/20 text-yellow-400' }
-    ]
-  }
 ];
 </script>
